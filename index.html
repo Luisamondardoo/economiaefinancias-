@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Economia Doméstica e Finanças Pessoais</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Economia Doméstica e Finanças Pessoais</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#simulador">Simulador de Orçamento</a></li>
+                <li><a href="#dicas">Dicas de Consumo</a></li>
+                <li><a href="#infograficos">Infográficos</a></li>
+                <li><a href="#glossario">Glossário</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Bem-vindo!</h2>
+            <p>Este site tem como objetivo ajudar você a entender melhor a economia doméstica e a organizar suas finanças pessoais, utilizando conhecimentos de Matemática, Geografia, Sociologia e Português.</p>
+           <h3>Matemática</h3>
+    <p>Por meio de cálculos simples, como orçamento mensal, porcentagens e gráficos, a matemática ajuda a planejar as finanças pessoais de forma eficiente e organizada.</p>
+    
+    <h3>Geografia</h3>
+    <p>O custo de vida e o consumo variam muito de acordo com a região onde se vive. Em grandes cidades, o valor das despesas tende a ser maior, enquanto regiões menos desenvolvidas enfrentam desafios diferentes relacionados à desigualdade econômica.</p>
+
+    <h3>Sociologia</h3>
+    <p>O consumo consciente é uma prática fundamental para reduzir desperdícios e impactos ambientais, além de promover a reflexão sobre a cultura do consumo e as desigualdades sociais associadas ao uso do dinheiro.</p>
+
+    <h3>Português</h3>
+    <p>É importante utilizar textos claros e objetivos para explicar conceitos financeiros, facilitando o entendimento e a comunicação de informações essenciais para uma boa gestão do orçamento pessoal.</p>
+</section>
+        </section>
+
+        <section id="simulador">
+            <h2>Simulador de Orçamento Mensal</h2>
+            <form id="budget-form">
+                <div class="form-group">
+                    <label for="receita">Receita Mensal (R$):</label>
+                    <input type="number" id="receita" min="0" step="0.01" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="despesas">Despesas Mensais (R$):</label>
+                    <input type="number" id="despesas" min="0" step="0.01" required />
+                </div>
+
+                <button type="submit">Calcular</button>
+            </form>
+
+            <div id="resultado">
+                <!-- Resultado aparecerá aqui -->
+            </div>
+        </section>
+
+        <section id="dicas">
+            <h2>Dicas de Consumo Consciente</h2>
+            <ul>
+                <li>Planeje suas compras para evitar gastos por impulso.</li>
+                <li>Prefira produtos duráveis e de qualidade.</li>
+                <li>Evite desperdícios, reaproveite sempre que possível.</li>
+                <li>Compare preços antes de comprar.</li>
+                <li>Controle seus gastos mensalmente para identificar excessos.</li>
+            </ul>
+        </section>
+
+        <section id="infograficos">
+            <h2>Infográficos com Dados Econômicos</h2>
+            <div class="chart" id="grafico-orcamento">
+                <h3>Distribuição do Orçamento</h3>
+                <div class="bar-container">
+                    <div class="bar receita-bar" style="width: 60%;">Receita (60%)</div>
+                </div>
+                <div class="bar-container">
+                    <div class="bar despesas-bar" style="width: 40%;">Despesas (40%)</div>
+                </div>
+            </div>
+            <p><small>Dados fictícios para exemplificação.</small></p>
+        </section>
+
+        <section id="glossario">
+            <h2>Glossário de Termos Financeiros</h2>
+            <dl>
+                <dt>Orçamento</dt>
+                <dd>Plano financeiro que detalha receitas e despesas.</dd>
+
+                <dt>Receita</dt>
+                <dd>Renda ou ganhos financeiros recebidos.</dd>
+
+                <dt>Despesa</dt>
+                <dd>Gastos ou custos financeiros.</dd>
+
+                <dt>Poupança</dt>
+                <dd>Parte da renda que não é gasta e é reservada para o futuro.</dd>
+
+                <dt>Investimento</dt>
+                <dd>Aplicação de recursos com expectativa de retorno financeiro.</dd>
+
+                <dt>Inflação</dt>
+                <dd>Aumento generalizado dos preços dos bens e serviços.</dd>
+
+                <dt>Juros</dt>
+                <dd>Valor cobrado sobre empréstimos ou ganho sobre investimentos.</dd>
+
+                <dt>Consumo Consciente</dt>
+                <dd>Prática de consumir de forma responsável e sustentável.</dd>
+
+                <dt>Endividamento</dt>
+                <dd>Estado de ter dívidas a pagar.</dd>
+
+                <dt>Liquidez</dt>
+                <dd>Facilidade de transformar um bem ou investimento em dinheiro.</dd>
+            </dl>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

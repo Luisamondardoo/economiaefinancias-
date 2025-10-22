@@ -1,0 +1,154 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #e7d2aa;
+    color: #333;
+    padding: 10px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #b16c12;
+    color: white;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+main section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #8a0b0b;
+}
+
+form {
+    max-width: 400px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #e4b267;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #c58422;
+}
+
+#resultado {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+dl dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+dl dd {
+    margin-left: 20px;
+    margin-bottom: 8px;
+}
+
+footer {
+    text-align: center;
+    margin: 30px 0 10px 0;
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Infográficos simples */
+.chart {
+    margin-top: 10px;
+}
+
+.bar-container {
+    background-color: #ddd;
+    border-radius: 20px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    height: 30px;
+    width: 100%;
+}
+
+.bar {
+    height: 100%;
+    line-height: 30px;
+    color: rgb(255, 255, 254);
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px 0 0 20px;
+}
+
+.receita-bar {
+    background-color: #28a745;
+}
+
+.despesas-bar {
+    background-color: #dc3545;
+}
